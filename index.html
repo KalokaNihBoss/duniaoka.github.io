@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dunia Oka - Beranda</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+    </head>
+    <body id="mainPage">
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark shadow-md fixed-top" aria-label="Fourth navbar example">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Dunia Oka</a>
+                <button class="navbar-toggler btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon rounded-2"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html#mainPage">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="unduh.html">Unduh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="artik.html">Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="hub.html#contact">Hubungi Saya</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html#about.html">Tentang Saya</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="p-5 mb-4 bg-light py-5 bg-dark" id="jumbotron">
+            <div class="container py-5 text-center text-white bg-dark">
+                <h1 class="display-5 fw-bold pt-5">Hey!</h1>
+                <p class="fs-4 pb-5 text-center">Lagi butuh beberapa cerita atau artikel, ga usah cari kesana kesini, mending cari di web ini.</p>
+            </div>
+        </div>
+
+        <!-- Artikel -->
+        <div id="artikel" class="mt-5 p-5 bg-dark text-white">
+            <div class="row mb-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center mb-5">
+                    <h2>Artikel Baru</h2>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 mb-5">
+                    <div class="card bg-dark border-dark">
+                        <h3>Membuat shortcut untuk shutdown dan restart laptop/komputer</h3>
+                        <br />
+                        <img src="img/artikel/membuat_aplikasi_shutdown.png" alt="membuat_shortcut_shutdown_dan_restart_untuk_komputer_atau_laptop" width="160" />
+                        <br />
+                        <h4 class="fs-5">
+                            <a href="article/shutdown_shortcut.html">lihat</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-5">
+                    <div class="card bg-dark border-dark">
+                        <h3>Memainkan game FNAF(Five Night At Freddy's) di laptop/komputer</h3>
+                        <br />
+                        <img src="img/artikel/memainkan_FNAF_di_komputer.png" alt="game_fnaf" width="160" />
+                        <br />
+                        <h4 class="fs-5">
+                            <a href="article/fnaf_1.html">lihat</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-5">
+                    <div class="card bg-dark border-dark">
+                        <h3>Soal MTK Debit</h3>
+                        <br />
+                        <img src="img/artikel/soal_mtk.png" alt="soal_mtk" width="320" />
+                        <br />
+                        <h4 class="fs-5">
+                            <a href="article/debit_soal.html">lihat</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div id="contact" class="mt-5 p-5 bg-dark text-white mb-5">
+            <div class="container my-5 p-2">
+                <div class="row mb-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center mb-5">
+                        <h2>Hubungi saya</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <p style="font-size: 14px">Pesan anda akan selalu kami terima.</p>
+
+                        <form name="submit-to-google-sheet">
+                            <div class="mb-3"><label for="email" class="form-label">Email : </label> <input type="email" name="email" id="email" class="rounded-3 p-2 form-control" aria-describedby="email" /></div>
+                            <div class="mb-3"><label for="nama" class="form-label">Nama : </label> <input type="text" name="nama" id="nama" class="rounded-3 p-2 form-control" aria-describedby="nama" /></div>
+                            <div class="mb-3">
+                                <label for="pesan" class="form-label">Pesan : </label>
+
+                                <textarea type="text" name="pesan" id="pesan" class="rounded-3 p-2 p-5 form-control" aria-describedby="email" rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn text-white btn-kirim" style="font-family: cursive">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+
+        <footer id="footer" class="bg-dark">
+            <div class="text-center bg-dark text-white p-3">
+                <p class="lead mt-3">© 2022. Kaloka.</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
